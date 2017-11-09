@@ -1,0 +1,53 @@
+/*!
+ * Start Bootstrap - Busines Frontpage (https://startbootstrap.com/template-overviews/business-frontpage)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-business-frontpage/blob/master/LICENSE)
+ */
+
+body {
+  padding-top: 54px;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+
+@media (min-width: 100px) {
+.business-header {
+  background: url('/img/topban1900x400.png') center center no-repeat scroll;
+  padding: 200px 0 0 75px;
+  background-size: 750px 158px;
+  background-position: center;
+  }
+}
+
+
+@media (min-width: 360px) {
+  .business-header {
+    background: url('/img/topban1900x400.png') center center no-repeat scroll;
+    background-size: 1000px 211px;
+    padding: 250px 0 0 100px;
+  }
+}
+
+@media (min-width: 480px) {
+.business-header {
+  position: relative;
+  max-width: 100%;
+  padding: 400px 0 0 200px;
+  min-height: auto;
+  /*min-height: 400px;*/
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-position: center;
+  background: url('/img/topban1900x400.png') center center no-repeat scroll;
+  }
+}
+
+.card {
+  height: 100%;
+}
